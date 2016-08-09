@@ -5,7 +5,7 @@
   <artifactId>testserver</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>mytest Maven Webapp</name>
+  <name>testserver Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
      <properties>

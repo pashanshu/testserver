@@ -57,6 +57,7 @@ public class infoController {
 	
 	@ResponseBody
 	@RequestMapping(value="/getobject")
+	@PerformanceLog(RequestClass="unknown",RequestMethod="unknown",ResponseClass="123",ResponseMethod="456")
 	public User getObject(){
 		logger.info("we begin here");
 		User user = new User();
