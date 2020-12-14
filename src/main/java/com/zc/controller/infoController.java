@@ -93,7 +93,7 @@ public class infoController {
 	@RequestMapping(value="/getmytestinfo", method = RequestMethod.GET)
 	@PerformanceLog(RequestClass="com.citic.test",RequestMethod="myTestMethod",ResponseClass="123",ResponseMethod="456")
 	public MyTest getMytestInfo(){
-		logger.info("mytest is begin!");
+		logger.info("mytest is begin! my test");
 		MyTest m = myTestMapper.selectByName("zc").get(0);
 		return m;
 	}
